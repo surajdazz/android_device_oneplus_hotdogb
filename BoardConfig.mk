@@ -17,10 +17,10 @@ AB_OTA_PARTITIONS += \
     vbmeta_system
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 380
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+TARGET_KERNEL_CONFIG := dora_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
